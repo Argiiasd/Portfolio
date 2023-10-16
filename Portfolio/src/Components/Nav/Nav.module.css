@@ -1,0 +1,21 @@
+.Nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Buttons_container {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.Button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
