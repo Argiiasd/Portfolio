@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.Presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 85%;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.Name {
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    z-index: 1;
+}
+
+.Job {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+    text-align: left;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+
+.Job_2 {
+    color: #369090;
+}
+
+.Imagen {
+    height: 100%;
+    position: absolute;
+    right: -180px;
+    top: 10px;
+}
