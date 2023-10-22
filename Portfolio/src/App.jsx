@@ -1,15 +1,15 @@
-import Nav from './Components/Nav/Nav';
-import Presentation from './Components/Presentation/Presentation';
+import Home from './Components/Home';
+import { Routes, Route } from 'react-router-dom';
 import './App.css'
 
 function App() {
-
   return (
     <>
-      <Nav />
-      <Presentation />
+      <Routes>
+        <Route path='/' element={<Home />}/>
+      </Routes> 
     </>
   )
 }
 
-export default App
+export default App;
