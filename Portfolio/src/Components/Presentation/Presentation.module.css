@@ -49,6 +49,12 @@
 .Imagen {
     height: 100%;
     position: absolute;
-    right: -180px;
+    right: -155px;
     top: 10px;
+}
+
+.Icono {
+    height: 50px;
+    width: 50px;
+    fill: red;
 }
