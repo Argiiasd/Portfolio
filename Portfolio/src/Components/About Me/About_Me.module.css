@@ -1,0 +1,49 @@
+.About_Me {
+    display: flex;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-align: left;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagenAbout {
+    width: 100px;
+    height: 300px;
+}
+
+.Title {
+    font-size: 30px;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    color: #DAB55A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Tecnologias {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.Iconos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.IconContainer {
+    width: 90px;
+    height: 90px;
+}
+
+.IconExpress {
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
