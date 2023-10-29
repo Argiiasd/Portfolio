@@ -14,9 +14,9 @@ const Contact_Form = () => {
             <p className={styles.FormText}>Espero que podamos trabajar juntos.</p>
             <div className={styles.Contact_Container}>
                 <form className={styles.Contact_Form_Container} action="https://formsubmit.co/mateo.p.giacosa@gmail.com" method="POST">
-                    <input type="text" name="Nombre" placeholder="Tu nombre" className={styles.Input}/>
-                    <input type="text" name="Email" placeholder="Email" className={styles.Input}/>
-                    <textarea type="text" name="Mensaje" placeholder="Mensaje" className={styles.Textarea}/>
+                    <input type="text" name="name" placeholder="Tu nombre" className={styles.Input}/>
+                    <input type="text" name="email" placeholder="Email" className={styles.Input}/>
+                    <textarea type="text" name="message" placeholder="Mensaje" className={styles.Textarea}/>
                     <button type="submit" className={styles.Button}>Enviar</button>
                 </form>
                 <div className={styles.Contact_Icons_Container}>
