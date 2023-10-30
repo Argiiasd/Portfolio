@@ -20,7 +20,7 @@ const Presentation = () => {
                         <GitHubIcon className={styles.Icon} sx={{color: '#333333', fontSize: 50}}/>    
                     </NavLink>
                 </div>
-                <img src={Imagen} alt="" className={styles.Imagen}/>
+                {/* <img src={Imagen} alt="" className={styles.Imagen}/> */}
             </div>
         </div>
     )
