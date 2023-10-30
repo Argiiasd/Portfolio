@@ -6,7 +6,7 @@ const About_Me = () => {
     let iconos = ["https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg", "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"]
     return (
         <>
-            <div className={styles.About_Me}>
+            <div className={styles.About_Me} id="sobreMi">
                 <div>
                     <img src={ImagenAbout} alt="" className={styles.ImagenAbout}/>
                 </div>
@@ -21,7 +21,7 @@ const About_Me = () => {
                 <div className={styles.Iconos}>
                     {iconos.map((icono) => {
                         return (
-                            <div className={styles.IconContainer}>
+                            <div className={styles.IconContainer} key={icono}>
                                 <img src={icono} alt="" className={styles.Icono}/>
                             </div>
                         )

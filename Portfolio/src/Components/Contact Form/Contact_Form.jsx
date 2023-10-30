@@ -8,7 +8,7 @@ import styles from "./Contact_Form.module.css";
 
 const Contact_Form = () => {
     return (
-        <div className={styles.Contact_Form}>
+        <div className={styles.Contact_Form} id="contacto">
             <h2 className={styles.FormTitle}>Contáctame</h2>
             <div className={styles.Line}/>
             <p className={styles.FormText}>Espero que podamos trabajar juntos.</p>

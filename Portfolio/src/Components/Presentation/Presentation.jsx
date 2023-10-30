@@ -22,9 +22,6 @@ const Presentation = () => {
                 </div>
                 <img src={Imagen} alt="" className={styles.Imagen}/>
             </div>
-            <div>
-
-            </div>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import { Link } from "react-scroll";
 import styles from "./Nav.module.css";
 
 const Nav = () => {
@@ -7,9 +8,9 @@ const Nav = () => {
         <div className={styles.Nav}>
             <h1>MJPG</h1>
             <div className={styles.Buttons_container}>
-                <button className={styles.Button}>Sobre mi <ArrowDownwardIcon /></button>
-                <button className={styles.Button}>Proyectos</button>
-                <button className={styles.Button}>Contacto</button>
+                <Link to="sobreMi" spy={true} smooth={true} offset={-100} duration={500} className={styles.Button}>Sobre mi <ArrowDownwardIcon /></Link>
+                <Link to="proyectos" spy={true} smooth={true} offset={-100} duration={500} className={styles.Button}>Proyectos</Link>
+                <Link to="contacto" spy={true} smooth={true} offset={-100} duration={500} className={styles.Button}>Contacto</Link>
             </div>
         </div>
     );

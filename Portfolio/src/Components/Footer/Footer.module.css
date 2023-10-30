@@ -1,0 +1,55 @@
+.FooterContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    width: 100%;
+    height: 150px;
+    margin-top: 5rem;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.LinksContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.mjpgContainer {
+    margin-left: 4rem;
+    text-align: left;
+}
+
+.mjpgText {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.mjpgText2 {
+    font-size: 14px;
+    margin: 0;
+    color: #8D8D8D;
+}
+
+.Links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+.Text {
+    margin-right: 4rem;
+    color: #8D8D8D;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+}
