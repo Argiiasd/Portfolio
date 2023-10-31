@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className={styles.Text}>
-                <p>Imágenes por vectorjuice y <br/> macrovector en Freepik.</p>
+                <p>Imágenes por vectorjuice y macrovector en Freepik. <br/> Fondo por Viktor Talashuk en Pexels. </p>
             </div>
         </div>
     )

@@ -1,5 +1,10 @@
+
+
 :root {
-  background-color: black;
+  background-image: url("./assets/pexels-viktor-talashuk-2362009.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body {
