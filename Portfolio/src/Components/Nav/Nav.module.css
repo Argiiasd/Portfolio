@@ -26,3 +26,9 @@
 .Button:hover {
     border-bottom: 3px solid white;
 }
+
+@media (max-width: 768px) {
+    .Nav {
+        flex-direction: column;
+    }
+}
