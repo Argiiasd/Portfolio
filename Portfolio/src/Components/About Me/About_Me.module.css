@@ -12,7 +12,7 @@
 .About_Me {
     display: flex;
     color: white;
-    font-size: 18px;
+    font-size: 19px;
     align-items: center;
     text-align: left;
     width: 80%;
@@ -27,14 +27,22 @@
     line-height: 1;
     padding: 0;
     margin: 0;
-    color: #DAB55A;
+    color: #f5f5f5;
     font-family: 'Poppins', sans-serif;
+}
+
+.ImagenAbout {
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .Tecnologias {
     display: flex;
     flex-direction: column;
     width: 80%;
+    margin-top: 2rem;
 }
 
 .Iconos {

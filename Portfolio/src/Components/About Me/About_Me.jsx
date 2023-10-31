@@ -1,5 +1,5 @@
 import React from "react";
-import ImagenAbout from "../../assets/Wavy-C_Bus-07_Single-08-removebg-preview.png";
+import ImagenAbout from "../../assets/pexels-daniel-putzer-633409.jpg";
 import styles from "./About_Me.module.css";
 
 const About_Me = () => {
