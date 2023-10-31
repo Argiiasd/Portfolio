@@ -9,7 +9,7 @@ const Nav = () => {
             <h1>MJPG</h1>
             <div className={styles.Buttons_container}>
                 <Link to="sobreMi" spy={true} smooth={true} offset={-250} duration={500} className={styles.Button}>Sobre mi <ArrowDownwardIcon /></Link>
-                <Link to="proyectos" spy={true} smooth={true} offset={-100} duration={500} className={styles.Button}>Proyectos</Link>
+                <Link to="proyectos" spy={true} smooth={true} offset={-350} duration={500} className={styles.Button}>Proyectos</Link>
                 <Link to="contacto" spy={true} smooth={true} duration={500} className={styles.Button}>Contacto</Link>
             </div>
         </div>
