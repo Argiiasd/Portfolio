@@ -26,3 +26,16 @@
     height: 20rem;
     width: 15rem;
 }
+
+@media (max-width: 768px) {
+    .Container_Proyects {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .Proyect {
+        width: 10rem;
+        height: 14rem;
+        margin-bottom: 1rem;
+    }
+}
