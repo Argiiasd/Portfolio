@@ -20,7 +20,6 @@
     color: white;
     cursor: pointer;
     font-size: 20px;
-    transform: 0.5s ease;
 }
 
 .Button:hover {
