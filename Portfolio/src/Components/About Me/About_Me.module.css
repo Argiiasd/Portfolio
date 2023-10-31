@@ -47,3 +47,19 @@
     height: 90px;
     border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+    .About_Me {
+        flex-direction: column;
+    }
+
+    .ImagenAbout {
+        height: auto;
+        width: 100%;
+    }
+
+    .Tecnologias {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
