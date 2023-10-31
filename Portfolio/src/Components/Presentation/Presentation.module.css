@@ -48,10 +48,11 @@
 }
 
 .Imagen {
-    height: 100%;
+    height: 45rem;
     position: absolute;
-    right: -155px;
-    top: -35px;
+    right: -100px;
+    top: 0px;
+
 }
 
 .Social_Media {

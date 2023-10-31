@@ -8,6 +8,8 @@
     align-items: center;
     color: white;
     font-family: 'Poppins', sans-serif;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
 }
 
 .LinksContainer {
