@@ -1,3 +1,14 @@
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        scale: 25%;
+    }
+    100% {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
 .About_Me {
     display: flex;
     color: white;
@@ -6,11 +17,9 @@
     text-align: left;
     width: 80%;
     font-family: 'Poppins', sans-serif;
-}
-
-.imagenAbout {
-    width: 100px;
-    height: 300px;
+    animation: fadeIn linear both;
+    animation-timeline: view();
+    animation-range: entry
 }
 
 .Title {
