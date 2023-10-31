@@ -122,3 +122,18 @@
     color: white;
     
 }
+
+@media (max-width: 768px) {
+    .Contact_Container {
+        flex-direction: column;
+    }
+    
+    .Contact_Form_Container {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .Contact_Icons_Container {
+        width: 100%;
+    }
+}
