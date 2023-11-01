@@ -2,7 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import trendytech from '../../assets/Captura de pantalla 2023-10-31 215440.png'
 import agilix from "../../assets/agilix.png";
-import henrydogs from "../../assets/henrydogs.png"
+import henrydogs from "../../assets/henrydogs.png";
+import rym from "../../assets/rym.png";
+import soon1 from "../../assets/pexels-og-productionz-17243087.jpg"
+import soon2 from "../../assets/og-productions.jpg"
 import styles from './Proyects.module.css';
 
 const Proyects = () => {
@@ -33,17 +36,30 @@ const Proyects = () => {
                     <div className={styles.Proyect_Body}>
                         <h2 className={styles.Proyect_Title}>Henry Dogs</h2>
                         <p className={styles.Proyect_Info}>Aplicación que permite ver información sobre razas de perros, buscarlas, filtrarlas y crear nuevas.</p>
-                        <button className={styles.Proyect_Button}>Repositorio</button>
+                        <NavLink to="https://github.com/Argiiasd/DOGS-PI" className={styles.Proyect_Button}>Repositorio</NavLink>
                     </div>
                 </div>
                 <div className={styles.Proyect}>
-
+                    <img src={rym} alt='Imagen' className={styles.Img} />
+                    <div className={styles.Proyect_Body}>
+                        <h2 className={styles.Proyect_Title}>Rick & Morty</h2>
+                        <p className={styles.Proyect_Info}>Proyecto integrador del bootcamp de SoyHenry. Utiliza la api de rick and morty para mostrar información de los personajes, poder buscarlos, filtrarlos y agregarlos a favoritos.</p>
+                        <NavLink to="https://github.com/Argiiasd/Module-2-4-Integrated-Project---SoyHenry-Rick-and-Morty" className={styles.Proyect_Button}>Repositorio</NavLink>
+                    </div>
                 </div>
                 <div className={styles.Proyect}>
-
+                    <img src={soon1} alt='Imagen' className={styles.Img} />
+                    <div className={styles.Proyect_Body}>
+                        <h2 className={styles.Proyect_Title}>Próximamente</h2>
+                        <p className={styles.Proyect_Info}>Foto de OG Productionz en Pexels.</p>
+                    </div>
                 </div>
                 <div className={styles.Proyect}>
-
+                    <img src={soon2} alt='Imagen' className={styles.Img} />
+                    <div className={styles.Proyect_Body}>
+                        <h2 className={styles.Proyect_Title}>Próximamente</h2>
+                        <p className={styles.Proyect_Info}>Foto de OG Productionz en Pexels.</p>
+                    </div>
                 </div>
             </div>
         </div>
