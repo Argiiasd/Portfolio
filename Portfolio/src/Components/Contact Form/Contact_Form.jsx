@@ -9,15 +9,15 @@ import styles from "./Contact_Form.module.css";
 const Contact_Form = () => {
     return (
         <div className={styles.Contact_Form} id="contacto">
-            <h2 className={styles.FormTitle}>Contáctame</h2>
+            <h2 className={styles.FormTitle}>Contact me</h2>
             <div className={styles.Line}/>
-            <p className={styles.FormText}>Espero que podamos trabajar juntos.</p>
+            <p className={styles.FormText}>I hope we can work together.</p>
             <div className={styles.Contact_Container}>
                 <form className={styles.Contact_Form_Container} action="https://formsubmit.co/mateo.p.giacosa@gmail.com" method="POST">
-                    <input type="text" name="name" placeholder="Tu nombre" className={styles.Input}/>
+                    <input type="text" name="name" placeholder="Your name" className={styles.Input}/>
                     <input type="text" name="email" placeholder="Email" className={styles.Input}/>
-                    <textarea type="text" name="message" placeholder="Mensaje" className={styles.Textarea}/>
-                    <button type="submit" className={styles.Button}>Enviar</button>
+                    <textarea type="text" name="message" placeholder="Message" className={styles.Textarea}/>
+                    <button type="submit" className={styles.Button}>Send</button>
                 </form>
                 <div className={styles.Contact_Icons_Container}>
                     <div className={styles.Contact_Icons}>

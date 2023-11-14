@@ -11,12 +11,12 @@ const Footer = () => {
                     <p className={styles.mjpgText2}>© 2023 MJPG</p>
                 </div>
                 <div className={styles.Links}>
-                    <NavLink to={"https://www.linkedin.com/in/mateo-jeremias-pg/"} className={styles.Link}>Mi LinkedIn</NavLink>
-                    <NavLink to={"https://github.com/Argiiasd"} className={styles.Link}>Mi GitHub</NavLink>
+                    <NavLink to={"https://www.linkedin.com/in/mateo-jeremias-pg/"} className={styles.Link}>My LinkedIn</NavLink>
+                    <NavLink to={"https://github.com/Argiiasd"} className={styles.Link}>My GitHub</NavLink>
                 </div>
             </div>
             <div className={styles.Text}>
-                <p>Imágenes por Viktor Talashuk <br/> y Daniel Putzer en Pexels. </p>
+                <p>Images from Viktor Talashuk <br/> and Daniel Putzer on Pexels. </p>
             </div>
         </div>
     )

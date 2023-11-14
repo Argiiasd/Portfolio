@@ -12,12 +12,11 @@ const About_Me = () => {
                 </div>
                 <div>
                     <h4 className={styles.Title}>Sobre mi</h4>
-                    <p>Hola! soy Mateo. Recientemente me gradué como Full-Stack Web Developer en el bootcamp de soyHenry, y estoy constantemente aprendiendo y mejorando mis habilidades. Soy una persona extrovertida y sociable, y me encanta trabajar en equipo. Estoy buscando nuevas oportunidades para aprender y crecer profesionalmente. Considero que tengo un gran potencial, y un fuerte compromiso con lo que hago. 
-                    Estoy seguro de que puedo aportar un gran valor a cualquier equipo.</p>
+                    <p>Hi! I am Mateo. I recently graduated as a Full-Stack Web Developer from soyHenry's bootcamp, and I am constantly learning and improving my skills. I am an extroverted and sociable person, and I love working in a team. I am looking for new opportunities to learn and grow professionally. I consider that I have great potential, and a strong commitment to what I do. I am sure that I can add great value to any team.</p>
                 </div>
             </div>
             <div className={styles.Tecnologias}>
-                <h4 className={styles.Title}>Lenguajes y Tecnologías</h4>
+                <h4 className={styles.Title}>Languages and technologies</h4>
                 <div className={styles.Iconos}>
                     {iconos.map((icono) => {
                         return (
