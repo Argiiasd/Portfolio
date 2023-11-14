@@ -11,7 +11,7 @@ const About_Me = () => {
                     <img src={ImagenAbout} alt="" className={styles.ImagenAbout}/>
                 </div>
                 <div>
-                    <h4 className={styles.Title}>Sobre mi</h4>
+                    <h4 className={styles.Title}>About Me</h4>
                     <p>Hi! I am Mateo. I recently graduated as a Full-Stack Web Developer from soyHenry's bootcamp, and I am constantly learning and improving my skills. I am an extroverted and sociable person, and I love working in a team. I am looking for new opportunities to learn and grow professionally. I consider that I have great potential, and a strong commitment to what I do. I am sure that I can add great value to any team.</p>
                 </div>
             </div>
