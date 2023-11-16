@@ -4,7 +4,7 @@ import trendytech from '../../assets/Captura de pantalla 2023-10-31 215440.png'
 import agilix from "../../assets/agilix.png";
 import henrydogs from "../../assets/henrydogs.png";
 import rym from "../../assets/rym.png";
-import soon1 from "../../assets/pexels-og-productionz-17243087.jpg"
+import cncExpert from "../../assets/cncExpert.png"
 import soon2 from "../../assets/og-productions.jpg"
 import styles from './Proyects.module.css';
 
@@ -13,6 +13,15 @@ const Proyects = () => {
         <div className={styles.Proyects} id='proyectos'>
             <h2 className={styles.Title}>Projects</h2>
             <div className={styles.Container_Proyects}>
+                <div className={styles.Proyect}>
+                    <img src={cncExpert} alt='Imagen' className={styles.Img} />
+                    <div className={styles.Proyect_Body}>
+                        <h2 className={styles.Proyect_Title}>CNC Expert</h2>
+                        <p className={styles.Proyect_Info}>Landing page for the final project of students at the EEST N1 (Merlo, Buenos Aires).</p>
+                        <NavLink to="https://github.com/Argiiasd/CNC_Expert_Landing_Page" className={styles.Proyect_Button}>Repository</NavLink>
+                        <NavLink to="https://cncexpert.netlify.app" className={styles.Proyect_Button}>CNC Expert</NavLink>
+                    </div>
+                </div>
                 <div className={styles.Proyect}>
                     <img src={trendytech} alt='Imagen' className={styles.Img} />
                     <div className={styles.Proyect_Body}>
@@ -45,13 +54,6 @@ const Proyects = () => {
                         <h2 className={styles.Proyect_Title}>Rick & Morty</h2>
                         <p className={styles.Proyect_Info}>SoyHenry bootcamp integrative project. The application uses the Rick and Morty API to display character information, be able to search for them, filter them and add them to favorites.</p>
                         <NavLink to="https://github.com/Argiiasd/Module-2-4-Integrated-Project---SoyHenry-Rick-and-Morty" className={styles.Proyect_Button}>Repository</NavLink>
-                    </div>
-                </div>
-                <div className={styles.Proyect}>
-                    <img src={soon1} alt='Imagen' className={styles.Img} />
-                    <div className={styles.Proyect_Body}>
-                        <h2 className={styles.Proyect_Title}>Soon!</h2>
-                        <p className={styles.Proyect_Info}>Image from OG Productionz on Pexels.</p>
                     </div>
                 </div>
                 <div className={styles.Proyect}>
