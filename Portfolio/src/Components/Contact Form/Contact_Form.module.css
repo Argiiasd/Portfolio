@@ -16,7 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 11rem;
     animation: fadeIn linear both;
     animation-timeline: view();
     animation-range: entry
